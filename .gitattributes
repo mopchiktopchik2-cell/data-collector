@@ -1,0 +1,4 @@
+# Windows-скрипты должны попадать в архив ZIP с CRLF,
+# иначе cmd.exe неправильно разбирает файл.
+*.bat text eol=crlf
+*.cmd text eol=crlf
