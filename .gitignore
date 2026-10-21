@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Данные и логи
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.log
+
+# Секреты и локальные настройки
+.env
+.env.*
+*.pem
+*.key
+
+# Среда разработки
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
